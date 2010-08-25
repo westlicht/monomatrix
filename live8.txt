@@ -1,0 +1,956 @@
+Live.Application
+['Application', '__doc__', '__name__', 'encrypt_challenge', 'get_application', 'get_random_int']
+Live.Application.Application
+['View', '__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'get_bugfix_version', 'get_document', 'get_major_version', 'get_minor_version', 'view']
+Live.Application.Application.View
+['NavDirection', '__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_is_view_visible_listener', 'add_view_focus_changed_listener', 'available_main_views', 'focus_view', 'hide_view', 'is_view_visible', 'is_view_visible_has_listener', 'remove_is_view_visible_listener', 'remove_view_focus_changed_listener', 'scroll_view', 'show_view', 'view_focus_changed_has_listener', 'zoom_view']
+Live.Application.Application.get_bugfix_version
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Application.Application.get_document
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Application.Application.get_major_version
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Application.Application.get_minor_version
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Application.Application.view
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Application.encrypt_challenge
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.Application.get_application
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.Application.get_random_int
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+
+
+Live.Clip
+['Clip', '__doc__', '__name__']
+Live.Clip.Clip
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_color_index_listener', 'add_is_recording_listener', 'add_loop_end_listener', 'add_loop_jump_listener', 'add_loop_start_listener', 'add_looping_listener', 'add_muted_listener', 'add_name_listener', 'add_notes_listener', 'add_pitch_coarse_listener', 'add_pitch_fine_listener', 'add_playing_status_listener', 'add_signature_denominator_listener', 'add_signature_numerator_listener', 'add_warping_listener', 'color_index', 'color_index_has_listener', 'deselect_all_notes', 'fire', 'get_selected_notes', 'is_audio_clip', 'is_midi_clip', 'is_playing', 'is_recording', 'is_recording_has_listener', 'is_triggered', 'length', 'loop_end', 'loop_end_has_listener', 'loop_jump_has_listener', 'loop_start', 'loop_start_has_listener', 'looping', 'looping_has_listener', 'move_playing_pos', 'muted', 'muted_has_listener', 'name', 'name_has_listener', 'notes_has_listener', 'pitch_coarse', 'pitch_coarse_has_listener', 'pitch_fine', 'pitch_fine_has_listener', 'playing_status_has_listener', 'remove_color_index_listener', 'remove_is_recording_listener', 'remove_loop_end_listener', 'remove_loop_jump_listener', 'remove_loop_start_listener', 'remove_looping_listener', 'remove_muted_listener', 'remove_name_listener', 'remove_notes_listener', 'remove_pitch_coarse_listener', 'remove_pitch_fine_listener', 'remove_playing_status_listener', 'remove_signature_denominator_listener', 'remove_signature_numerator_listener', 'remove_warping_listener', 'replace_selected_notes', 'select_all_notes', 'set_fire_button_state', 'signature_denominator', 'signature_denominator_has_listener', 'signature_numerator', 'signature_numerator_has_listener', 'stop', 'warping', 'warping_has_listener', 'will_record_on_start']
+Live.Clip.Clip.add_color_index_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_is_recording_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_loop_end_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_loop_jump_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_loop_start_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_looping_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_muted_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_notes_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_pitch_coarse_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_pitch_fine_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_playing_status_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_signature_denominator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_signature_numerator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.add_warping_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.color_index
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.color_index_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.deselect_all_notes
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.fire
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.get_selected_notes
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.is_audio_clip
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.is_midi_clip
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.is_playing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.is_recording
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.is_recording_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.is_triggered
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.length
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.loop_end
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.loop_end_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.loop_jump_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.loop_start
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.loop_start_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.looping
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.looping_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.move_playing_pos
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.muted
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.muted_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.name_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.notes_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.pitch_coarse
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.pitch_coarse_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.pitch_fine
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.pitch_fine_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.playing_status_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_color_index_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_is_recording_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_loop_end_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_loop_jump_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_loop_start_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_looping_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_muted_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_notes_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_pitch_coarse_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_pitch_fine_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_playing_status_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_signature_denominator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_signature_numerator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.remove_warping_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.replace_selected_notes
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.select_all_notes
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.set_fire_button_state
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.signature_denominator
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.signature_denominator_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.signature_numerator
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.signature_numerator_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.stop
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.warping
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Clip.Clip.warping_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Clip.Clip.will_record_on_start
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+
+
+Live.ClipSlot
+['ClipSlot', '__doc__', '__name__']
+Live.ClipSlot.ClipSlot
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_has_clip_listener', 'add_has_stop_button_listener', 'add_is_triggered_listener', 'clip', 'fire', 'has_clip', 'has_clip_has_listener', 'has_stop_button', 'has_stop_button_has_listener', 'is_triggered', 'is_triggered_has_listener', 'remove_has_clip_listener', 'remove_has_stop_button_listener', 'remove_is_triggered_listener', 'stop', 'will_record_on_start']
+Live.ClipSlot.ClipSlot.add_has_clip_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.add_has_stop_button_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.add_is_triggered_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.clip
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.ClipSlot.ClipSlot.fire
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.has_clip
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.ClipSlot.ClipSlot.has_clip_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.has_stop_button
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.ClipSlot.ClipSlot.has_stop_button_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.is_triggered
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.ClipSlot.ClipSlot.is_triggered_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.remove_has_clip_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.remove_has_stop_button_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.remove_is_triggered_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.stop
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.ClipSlot.ClipSlot.will_record_on_start
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+
+
+Live.Device
+['Device', '__doc__', '__name__']
+Live.Device.Device
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_name_listener', 'add_parameters_listener', 'class_name', 'name', 'name_has_listener', 'parameters', 'parameters_has_listener', 'remove_name_listener', 'remove_parameters_listener', 'store_chosen_bank']
+Live.Device.Device.add_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.add_parameters_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.class_name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Device.Device.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Device.Device.name_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.parameters
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Device.Device.parameters_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.remove_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.remove_parameters_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Device.Device.store_chosen_bank
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+
+
+Live.DeviceParameter
+['DeviceParameter', '__doc__', '__name__']
+Live.DeviceParameter.DeviceParameter
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_value_listener', 'default_value', 'is_quantized', 'max', 'min', 'name', 'original_name', 'remove_value_listener', 'value', 'value_has_listener']
+Live.DeviceParameter.DeviceParameter.add_value_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.DeviceParameter.DeviceParameter.default_value
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.is_quantized
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.max
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.min
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.original_name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.remove_value_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.DeviceParameter.DeviceParameter.value
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.DeviceParameter.DeviceParameter.value_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+
+
+Live.MidiMap
+['CCFeedbackRule', 'MapMode', 'PitchBendFeedbackRule', '__doc__', '__name__', 'forward_midi_cc', 'forward_midi_note', 'forward_midi_pitchbend', 'map_midi_cc', 'map_midi_cc_with_feedback_map', 'map_midi_note', 'map_midi_note_with_feedback_map', 'map_midi_pitchbend', 'map_midi_pitchbend_with_feedback_map', 'send_feedback_for_parameter']
+Live.MidiMap.CCFeedbackRule
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__instance_size__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'cc_no', 'cc_value_map', 'channel', 'delay_in_ms']
+Live.MidiMap.CCFeedbackRule.cc_no
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.CCFeedbackRule.cc_value_map
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.CCFeedbackRule.channel
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.CCFeedbackRule.delay_in_ms
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.MapMode
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.absolute
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.absolute_14_bit
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__name__', '__new__', '__objclass__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__']
+Live.MidiMap.MapMode.relative_binary_offset
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_signed_bit
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_signed_bit2
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_smooth_binary_offset
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_smooth_signed_bit
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_smooth_signed_bit2
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_smooth_two_compliment
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.relative_two_compliment
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'absolute', 'absolute_14_bit', 'name', 'relative_binary_offset', 'relative_signed_bit', 'relative_signed_bit2', 'relative_smooth_binary_offset', 'relative_smooth_signed_bit', 'relative_smooth_signed_bit2', 'relative_smooth_two_compliment', 'relative_two_compliment', 'values']
+Live.MidiMap.MapMode.values
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__str__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+Live.MidiMap.PitchBendFeedbackRule
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__instance_size__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'channel', 'delay_in_ms', 'value_pair_map']
+Live.MidiMap.PitchBendFeedbackRule.channel
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.PitchBendFeedbackRule.delay_in_ms
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.PitchBendFeedbackRule.value_pair_map
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MidiMap.forward_midi_cc
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.forward_midi_note
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.forward_midi_pitchbend
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_cc
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_cc_with_feedback_map
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_note
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_note_with_feedback_map
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_pitchbend
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.map_midi_pitchbend_with_feedback_map
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+Live.MidiMap.send_feedback_for_parameter
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__name__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__str__']
+
+
+Live.MixerDevice
+['MixerDevice', '__doc__', '__name__']
+Live.MixerDevice.MixerDevice
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_crossfade_assign_listener', 'add_sends_listener', 'crossfade_assign', 'crossfade_assign_has_listener', 'crossfade_assignments', 'crossfader', 'cue_volume', 'panning', 'remove_crossfade_assign_listener', 'remove_sends_listener', 'sends', 'sends_has_listener', 'volume']
+Live.MixerDevice.MixerDevice.add_crossfade_assign_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.add_sends_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.crossfade_assign
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MixerDevice.MixerDevice.crossfade_assign_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.crossfade_assignments
+['A', 'B', 'NONE', '__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'values']
+Live.MixerDevice.MixerDevice.crossfader
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MixerDevice.MixerDevice.cue_volume
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MixerDevice.MixerDevice.panning
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MixerDevice.MixerDevice.remove_crossfade_assign_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.remove_sends_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.sends
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.MixerDevice.MixerDevice.sends_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.MixerDevice.MixerDevice.volume
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+
+
+Live.Scene
+['Scene', '__doc__', '__name__']
+Live.Scene.Scene
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_is_triggered_listener', 'add_name_listener', 'clip_slots', 'fire', 'fire_as_selected', 'is_triggered', 'is_triggered_has_listener', 'name', 'name_has_listener', 'remove_is_triggered_listener', 'remove_name_listener', 'tempo']
+Live.Scene.Scene.add_is_triggered_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.add_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.clip_slots
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Scene.Scene.fire
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.fire_as_selected
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.is_triggered
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Scene.Scene.is_triggered_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Scene.Scene.name_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.remove_is_triggered_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.remove_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Scene.Scene.tempo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+
+
+Live.Song
+['BeatTime', 'CuePoint', 'Quantization', 'RecordingQuantization', 'SmptTime', 'Song', 'TimeFormat', '__doc__', '__name__']
+Live.Song.BeatTime
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__instance_size__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'bars', 'beats', 'sub_division', 'ticks']
+Live.Song.BeatTime.bars
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.BeatTime.beats
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.BeatTime.sub_division
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.BeatTime.ticks
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.CuePoint
+['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_name_listener', 'add_time_listener', 'jump', 'name', 'name_has_listener', 'remove_name_listener', 'remove_time_listener', 'time', 'time_has_listener']
+Live.Song.CuePoint.add_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.add_time_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.jump
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.CuePoint.name_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.remove_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.remove_time_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.CuePoint.time
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.CuePoint.time_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Quantization
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__name__', '__new__', '__objclass__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__']
+Live.Song.Quantization.q_2_bars
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_4_bars
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_8_bars
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_bar
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_eight
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_eight_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_half
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_half_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_no_q
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_quarter
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_quarter_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_sixtenth
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_sixtenth_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.q_thirtytwoth
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'q_2_bars', 'q_4_bars', 'q_8_bars', 'q_bar', 'q_eight', 'q_eight_triplet', 'q_half', 'q_half_triplet', 'q_no_q', 'q_quarter', 'q_quarter_triplet', 'q_sixtenth', 'q_sixtenth_triplet', 'q_thirtytwoth', 'values']
+Live.Song.Quantization.values
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__str__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+Live.Song.RecordingQuantization
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__name__', '__new__', '__objclass__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__']
+Live.Song.RecordingQuantization.rec_q_eight
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_eight_eight_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_eight_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_no_q
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_quarter
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_sixtenth
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_sixtenth_sixtenth_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_sixtenth_triplet
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.rec_q_thirtytwoth
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'rec_q_eight', 'rec_q_eight_eight_triplet', 'rec_q_eight_triplet', 'rec_q_no_q', 'rec_q_quarter', 'rec_q_sixtenth', 'rec_q_sixtenth_sixtenth_triplet', 'rec_q_sixtenth_triplet', 'rec_q_thirtytwoth', 'values']
+Live.Song.RecordingQuantization.values
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__str__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+Live.Song.SmptTime
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__instance_size__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'frames', 'hours', 'minutes', 'seconds']
+Live.Song.SmptTime.frames
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.SmptTime.hours
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.SmptTime.minutes
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.SmptTime.seconds
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song
+['View', '__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_back_to_arranger_listener', 'add_can_jump_to_next_cue_listener', 'add_can_jump_to_prev_cue_listener', 'add_clip_trigger_quantization_listener', 'add_cue_points_listener', 'add_current_song_time_listener', 'add_groove_amount_listener', 'add_is_playing_listener', 'add_loop_length_listener', 'add_loop_listener', 'add_loop_start_listener', 'add_metronom_listener', 'add_midi_recording_quantization_listener', 'add_nudge_down_listener', 'add_nudge_up_listener', 'add_overdub_listener', 'add_punch_in_listener', 'add_punch_out_listener', 'add_record_mode_listener', 'add_scenes_listener', 'add_signature_denominator_listener', 'add_signature_numerator_listener', 'add_song_length_listener', 'add_tempo_listener', 'add_tracks_listener', 'add_visible_tracks_listener', 'appointed_device', 'back_to_arranger', 'back_to_arranger_has_listener', 'can_jump_to_next_cue', 'can_jump_to_next_cue_has_listener', 'can_jump_to_prev_cue', 'can_jump_to_prev_cue_has_listener', 'can_redo', 'can_undo', 'clip_trigger_quantization', 'clip_trigger_quantization_has_listener', 'continue_playing', 'cue_points', 'cue_points_has_listener', 'current_song_time', 'current_song_time_has_listener', 'exclusive_arm', 'exclusive_solo', 'get_beats_loop_length', 'get_beats_loop_start', 'get_current_beats_song_time', 'get_current_smpte_song_time', 'groove_amount', 'groove_amount_has_listener', 'is_cue_point_selected', 'is_playing', 'is_playing_has_listener', 'jump_by', 'jump_to_next_cue', 'jump_to_prev_cue', 'last_events_time', 'loop', 'loop_has_listener', 'loop_length', 'loop_length_has_listener', 'loop_start', 'loop_start_has_listener', 'master_track', 'metronom', 'metronom_has_listener', 'midi_recording_quantization', 'midi_recording_quantization_has_listener', 'nudge_down', 'nudge_down_has_listener', 'nudge_up', 'nudge_up_has_listener', 'overdub', 'overdub_has_listener', 'play_selection', 'punch_in', 'punch_in_has_listener', 'punch_out', 'punch_out_has_listener', 'record_mode', 'record_mode_has_listener', 'redo', 'remove_back_to_arranger_listener', 'remove_can_jump_to_next_cue_listener', 'remove_can_jump_to_prev_cue_listener', 'remove_clip_trigger_quantization_listener', 'remove_cue_points_listener', 'remove_current_song_time_listener', 'remove_groove_amount_listener', 'remove_is_playing_listener', 'remove_loop_length_listener', 'remove_loop_listener', 'remove_loop_start_listener', 'remove_metronom_listener', 'remove_midi_recording_quantization_listener', 'remove_nudge_down_listener', 'remove_nudge_up_listener', 'remove_overdub_listener', 'remove_punch_in_listener', 'remove_punch_out_listener', 'remove_record_mode_listener', 'remove_scenes_listener', 'remove_signature_denominator_listener', 'remove_signature_numerator_listener', 'remove_song_length_listener', 'remove_tempo_listener', 'remove_tracks_listener', 'remove_visible_tracks_listener', 'return_tracks', 'scenes', 'scenes_has_listener', 'scrub_by', 'set_or_delete_cue', 'signature_denominator', 'signature_denominator_has_listener', 'signature_numerator', 'signature_numerator_has_listener', 'song_length', 'song_length_has_listener', 'start_playing', 'stop_all_clips', 'stop_playing', 'tap_tempo', 'tempo', 'tempo_has_listener', 'tracks', 'tracks_has_listener', 'undo', 'view', 'visible_tracks', 'visible_tracks_has_listener']
+Live.Song.Song.View
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_detail_clip_listener', 'add_draw_mode_listener', 'add_follow_song_listener', 'add_selected_scene_listener', 'add_selected_track_listener', 'detail_clip', 'detail_clip_has_listener', 'draw_mode', 'draw_mode_has_listener', 'follow_song', 'follow_song_has_listener', 'highlighted_clip_slot', 'remove_detail_clip_listener', 'remove_draw_mode_listener', 'remove_follow_song_listener', 'remove_selected_scene_listener', 'remove_selected_track_listener', 'select_device', 'selected_scene', 'selected_scene_has_listener', 'selected_track', 'selected_track_has_listener']
+Live.Song.Song.add_back_to_arranger_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_can_jump_to_next_cue_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_can_jump_to_prev_cue_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_clip_trigger_quantization_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_cue_points_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_current_song_time_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_groove_amount_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_is_playing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_loop_length_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_loop_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_loop_start_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_metronom_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_midi_recording_quantization_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_nudge_down_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_nudge_up_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_overdub_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_punch_in_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_punch_out_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_record_mode_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_scenes_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_signature_denominator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_signature_numerator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_song_length_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_tempo_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_tracks_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.add_visible_tracks_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.appointed_device
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.back_to_arranger
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.back_to_arranger_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.can_jump_to_next_cue
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.can_jump_to_next_cue_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.can_jump_to_prev_cue
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.can_jump_to_prev_cue_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.can_redo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.can_undo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.clip_trigger_quantization
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.clip_trigger_quantization_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.continue_playing
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.cue_points
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.cue_points_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.current_song_time
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.current_song_time_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.exclusive_arm
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.exclusive_solo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.get_beats_loop_length
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.get_beats_loop_start
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.get_current_beats_song_time
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.get_current_smpte_song_time
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.groove_amount
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.groove_amount_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.is_cue_point_selected
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.is_playing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.is_playing_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.jump_by
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.jump_to_next_cue
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.jump_to_prev_cue
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.last_events_time
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.loop
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.loop_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.loop_length
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.loop_length_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.loop_start
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.loop_start_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.master_track
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.metronom
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.metronom_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.midi_recording_quantization
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.midi_recording_quantization_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.nudge_down
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.nudge_down_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.nudge_up
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.nudge_up_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.overdub
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.overdub_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.play_selection
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.punch_in
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.punch_in_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.punch_out
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.punch_out_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.record_mode
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.record_mode_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.redo
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_back_to_arranger_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_can_jump_to_next_cue_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_can_jump_to_prev_cue_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_clip_trigger_quantization_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_cue_points_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_current_song_time_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_groove_amount_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_is_playing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_loop_length_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_loop_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_loop_start_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_metronom_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_midi_recording_quantization_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_nudge_down_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_nudge_up_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_overdub_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_punch_in_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_punch_out_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_record_mode_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_scenes_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_signature_denominator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_signature_numerator_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_song_length_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_tempo_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_tracks_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.remove_visible_tracks_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.return_tracks
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.scenes
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.scenes_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.scrub_by
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.set_or_delete_cue
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.signature_denominator
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.signature_denominator_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.signature_numerator
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.signature_numerator_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.song_length
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.song_length_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.start_playing
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.stop_all_clips
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.stop_playing
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.tap_tempo
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.tempo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.tempo_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.tracks
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.tracks_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.undo
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.Song.view
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.visible_tracks
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Song.Song.visible_tracks_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Song.TimeFormat
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.ms_time
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__name__', '__new__', '__objclass__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__']
+Live.Song.TimeFormat.smpte_24
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.smpte_25
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.smpte_29
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.smpte_30
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.smpte_30_drop
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'ms_time', 'name', 'smpte_24', 'smpte_25', 'smpte_29', 'smpte_30', 'smpte_30_drop', 'values']
+Live.Song.TimeFormat.values
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__str__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+
+
+Live.String
+['__doc__', '__name__']
+
+
+Live.Track
+['Track', '__doc__', '__name__']
+Live.Track.Track
+['View', '__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_arm_listener', 'add_clip_slots_listener', 'add_current_input_routing_listener', 'add_current_input_sub_routing_listener', 'add_current_monitoring_state_listener', 'add_current_output_routing_listener', 'add_current_output_sub_routing_listener', 'add_devices_listener', 'add_fired_slot_index_listener', 'add_has_audio_input_listener', 'add_has_audio_output_listener', 'add_has_midi_input_listener', 'add_has_midi_output_listener', 'add_input_meter_level_listener', 'add_mute_listener', 'add_name_listener', 'add_output_meter_level_listener', 'add_solo_listener', 'arm', 'arm_has_listener', 'can_be_armed', 'clip_slots', 'clip_slots_has_listener', 'current_input_routing', 'current_input_routing_has_listener', 'current_input_sub_routing', 'current_input_sub_routing_has_listener', 'current_monitoring_state', 'current_monitoring_state_has_listener', 'current_output_routing', 'current_output_routing_has_listener', 'current_output_sub_routing', 'current_output_sub_routing_has_listener', 'devices', 'devices_has_listener', 'fired_slot_index', 'fired_slot_index_has_listener', 'has_audio_input', 'has_audio_input_has_listener', 'has_audio_output', 'has_audio_output_has_listener', 'has_midi_input', 'has_midi_input_has_listener', 'has_midi_output', 'has_midi_output_has_listener', 'input_meter_level', 'input_meter_level_has_listener', 'input_routings', 'input_sub_routings', 'is_part_of_selection', 'is_visible', 'jump_in_running_session_clip', 'mixer_device', 'monitoring_states', 'mute', 'mute_has_listener', 'name', 'name_has_listener', 'output_meter_level', 'output_meter_level_has_listener', 'output_routings', 'output_sub_routings', 'remove_arm_listener', 'remove_clip_slots_listener', 'remove_current_input_routing_listener', 'remove_current_input_sub_routing_listener', 'remove_current_monitoring_state_listener', 'remove_current_output_routing_listener', 'remove_current_output_sub_routing_listener', 'remove_devices_listener', 'remove_fired_slot_index_listener', 'remove_has_audio_input_listener', 'remove_has_audio_output_listener', 'remove_has_midi_input_listener', 'remove_has_midi_output_listener', 'remove_input_meter_level_listener', 'remove_mute_listener', 'remove_name_listener', 'remove_output_meter_level_listener', 'remove_solo_listener', 'solo', 'solo_has_listener', 'view']
+Live.Track.Track.View
+['__class__', '__delattr__', '__dict__', '__doc__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', '__weakref__', 'add_is_collapsed_listener', 'add_selected_device_listener', 'is_collapsed', 'is_collapsed_has_listener', 'remove_is_collapsed_listener', 'remove_selected_device_listener', 'select_instrument', 'selected_device', 'selected_device_has_listener']
+Live.Track.Track.add_arm_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_clip_slots_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_current_input_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_current_input_sub_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_current_monitoring_state_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_current_output_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_current_output_sub_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_devices_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_fired_slot_index_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_has_audio_input_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_has_audio_output_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_has_midi_input_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_has_midi_output_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_input_meter_level_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_mute_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_output_meter_level_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.add_solo_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.arm
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.arm_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.can_be_armed
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.clip_slots
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.clip_slots_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.current_input_routing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.current_input_routing_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.current_input_sub_routing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.current_input_sub_routing_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.current_monitoring_state
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.current_monitoring_state_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.current_output_routing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.current_output_routing_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.current_output_sub_routing
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.current_output_sub_routing_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.devices
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.devices_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.fired_slot_index
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.fired_slot_index_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.has_audio_input
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.has_audio_input_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.has_audio_output
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.has_audio_output_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.has_midi_input
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.has_midi_input_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.has_midi_output
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.has_midi_output_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.input_meter_level
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.input_meter_level_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.input_routings
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.input_sub_routings
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.is_part_of_selection
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.is_visible
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.jump_in_running_session_clip
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.mixer_device
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.monitoring_states
+['AUTO', 'IN', 'OFF', '__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__slots__', '__str__', '__sub__', '__truediv__', '__xor__', 'name', 'values']
+Live.Track.Track.mute
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.mute_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.name
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.name_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.output_meter_level
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.output_meter_level_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.output_routings
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.output_sub_routings
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.remove_arm_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_clip_slots_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_current_input_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_current_input_sub_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_current_monitoring_state_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_current_output_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_current_output_sub_routing_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_devices_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_fired_slot_index_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_has_audio_input_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_has_audio_output_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_has_midi_input_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_has_midi_output_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_input_meter_level_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_mute_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_name_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_output_meter_level_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.remove_solo_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.solo
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+Live.Track.Track.solo_has_listener
+['__call__', '__class__', '__cmp__', '__delattr__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__str__', 'im_class', 'im_func', 'im_self']
+Live.Track.Track.view
+['__class__', '__delattr__', '__delete__', '__doc__', '__get__', '__getattribute__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__set__', '__setattr__', '__str__', 'fdel', 'fget', 'fset']
+
+
